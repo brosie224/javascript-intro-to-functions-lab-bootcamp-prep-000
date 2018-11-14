@@ -19,19 +19,19 @@ var uppercase = string.toUpperCase()
 
 function sayHiToGrandma(string) {
   if (string === lowercase) {
-    console.log("I can't hear you!")
+    return "I can't hear you!"
   }
 }
 
 function sayHiToGrandma(string) {
   if (string === uppercase) {
-    console.log("YES INDEED!")
+    return "YES INDEED!"
   }
 }
 
 function sayHiToGrandma(string) {
   if (string === "I love you, Grandma.") {
-    console.log("I love you, too.")
+    return "I love you, too."
   }
 }
 
